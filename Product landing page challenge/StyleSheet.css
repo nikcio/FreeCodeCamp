@@ -1,0 +1,163 @@
+/*  MEDIA QUERY:
+@media (max-width: 00px){
+  
+}
+*/
+
+#logo{
+}
+
+#header-img{
+  width: 100px;
+  border: solid 2.3px rgba(78, 44, 14, 0.85);
+  border-radius: 5%;
+}
+
+#header{
+  display: flex;
+  padding: 10px;
+  background-color: rgba(128, 90, 24, 0.94);
+  border: transparent 1px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+#top{
+  position:fixed;
+  left: 10px;
+  top: 10px;
+  background-color: rgb(61, 61, 61);
+  height: 30px;
+  width: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#return{
+  color: white;
+  text-decoration: none;
+}
+
+#nav-bar{
+  display: flex;
+  margin-left: auto;
+  color: white;
+  flex-direction: row;
+  padding-right: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-link{
+  width: auto;
+  height: auto;
+  background-color: rgba(81, 57, 15, 0.94);
+  text-align: left;
+  margin-right: 10px;
+  padding: 10px 25px 10px 25px;
+  color: white;
+  text-decoration: none;
+  border: 1.5px solid black;
+}
+
+body{
+  background-color: #B48D51;
+  background-repeat: repeat;
+  background-size: 30%;
+}
+
+#video{
+  width:50%;
+}
+
+#About{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#text{
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
+}
+
+#Product_line{
+  margin-top: 40px;
+  font-size: 1.8em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#Para{
+  color: white;
+  font-size: 0.9em;
+}
+
+#para{
+  color: white;
+}
+
+#Price-label{
+  color: white;
+  margin-top: 10px;
+}
+
+#main{
+  background-color: rgba(81, 57, 15, 0.94);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 30px;
+  
+ 
+}
+
+@media (max-width: 700px){
+  #main{
+    width: 100%;
+  }
+  
+  #header{
+    width:100%
+  }
+  
+}
+
+#form{
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  
+}
+
+#email{
+}
+
+#Price{
+  display: grid;
+  width: 70%;
+  grid-template-columns: 33% auto 33%;
+  grid-gap: 5px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#box-price{
+  display: grid;
+  grid-template-rows: 40% 30% 20%;
+  text-align: center;
+  background-color: rgba(128, 90, 24, 0.94);
+  border: 1px solid black;
+}
+
+#price-button{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}

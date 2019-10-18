@@ -1,0 +1,160 @@
+body{
+    display: grid;
+    grid-template-columns: 250px auto;
+    font-family: Akkurat Std,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    margin: 0px;
+  }
+  
+  #navbar{
+    display: grid;
+    grid-template-rows: 13% 1% 15% 1% 15% 1% 15% 1% 15% 1% 15%;
+    height: 375px;
+    width: 247px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 1%;
+    position: fixed;
+  }
+  
+  #navbar header{
+    font-size: 1.3em;
+    font-weight: 450;
+  }
+  
+  #navbar a{
+    font-size: 1.2em;
+    font-weight: 200;
+    line-height: 250%
+  }
+  
+  #navbar a:hover{
+    font-weight: 400;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    color: black;
+  }
+  
+  hr{
+    transform: rotate(180deg);
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  #main-doc{
+    grid-area: 2/2/2/2;
+  }
+  
+  .main-section{
+    margin-left: 3%;
+    margin-top: 60px;
+    margin-right: 5%;
+  }
+  
+  .main-section p{
+    max-width: 1057px;
+    font-size: 1.2em;
+    font-weight: 360;
+    margin-left: 1.5%;
+  }
+  
+  .main-section li{
+    max-width: 1057px;
+    font-size: 1.2em;
+    font-weight: 360;
+    margin-left: 1.5%;
+    margin-bottom: 13px;
+  }
+  
+  .main-section code{
+    max-width: 1057px;
+    font-size: 1.2em;
+    font-weight: 360;
+    margin-left: 1.5%;
+  }
+  
+  .main-section header{
+    font-size: 1.6em;
+    font-weight: 650;
+  }
+  
+  code{
+    white-space: pre;
+    background-color: #F0F0F0;
+    display: block;
+    margin-bottom: 30px;
+    word-break: normal;
+    word-wrap: normal;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  @media(max-width: 1057px){
+    #navbar{
+    display: grid;
+    grid-template-columns: 10% 1% 15% 1% 17% 1% 18% 1% 15% 1% 20%;
+    grid-template-rows: 100%;
+    height: 60px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1%;
+    background-color: white;
+    }
+    
+    hr{
+    transform: rotate(0deg);
+    width: 10%;
+    height: 80%;
+    margin: auto;
+    border-right: 1px solid black;
+    border-radius: 50%;
+    }
+    
+    #navbar header{
+    font-size: 1.3em;
+    line-height: 250%
+    }
+  
+  #navbar a{
+    font-size: 1em;
+    line-height: 350%
+    }
+    
+    #main-doc{
+      margin-top: 80px;
+    }
+    
+    body{
+      grid-template-columns: 10px auto;
+    }
+    
+    .main-section p{
+    max-width: 1057px;
+    font-size: 1.2em;
+    font-weight: 360;
+    margin-left: 1.5%;
+  }
+  
+  .main-section li{
+    max-width: 1057px;
+    font-size: 1.2em;
+    font-weight: 360;
+    margin-left: 1.5%;
+    margin-bottom: 13px;
+  }
+  
+  .main-section code{
+    max-width: 1057px;
+    font-size: 1.2em;
+    font-weight: 360;
+    margin-left: 1.5%;
+    }
+  }
