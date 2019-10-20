@@ -16,6 +16,6 @@ My FreeCodeCamp profile: https://www.freecodecamp.org/nikcio
 All projects were originally made on codepen.io to see the projects online visit: https://codepen.io/collection/Djmzmg
 
 ---
-Author: Nikolaj Brask-Nielsen
-Alias: Nikcio
-Date of project upload: 19-10-2019
+* Author: Nikolaj Brask-Nielsen
+* Alias: Nikcio
+* Date of project upload: 19-10-2019
